@@ -5,8 +5,6 @@ import App from './App';
 import './index.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+	<App endDate={new Date(2022, 11, 25, 8)} />,
+	document.getElementById('root')
 );
